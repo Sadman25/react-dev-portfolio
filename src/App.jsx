@@ -119,7 +119,7 @@ function App() {
         <ContactForm />
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
