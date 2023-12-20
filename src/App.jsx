@@ -14,6 +14,10 @@ import { useEffect } from "react";
 import blogPosts from "./content/blogPosts";
 import ContactForm from "./components/ContactForm";
 import BlogPost from "./components/BlogPost";
+import ExperienceCard from "./components/ExperienceCard";
+import experiencePosts from "./content/experiencePosts";
+import EducationCard from "./components/EducationCard";
+import educationPosts from "./content/educationPosts";
 
 function App() {
   const controls = useAnimation();
@@ -52,6 +56,15 @@ function App() {
       />
       <div className="hr"></div>
 
+      <section id="experience">
+        <Heading firstWord="My" secondWord="Experiences" />
+        <div className="posts">
+          {experiencePosts.map((post, index) => (
+            <ExperienceCard key={index} post={post} />
+          ))}
+        </div>
+      </section>
+      
       <section id="projects">
         <Heading firstWord="My" secondWord="Projects" />
         <motion.div
@@ -74,6 +87,7 @@ function App() {
           ))}
         </motion.div>
       </section>
+
       <section id="skills">
         <Heading firstWord="Skills" secondWord="&Tools" />
         <motion.div
@@ -90,23 +104,16 @@ function App() {
           ))}
         </motion.div>
       </section>
-      <section id="blog">
-        <Heading firstWord="My" secondWord="Blog" />
+
+      <section id="education">
+        <Heading firstWord="My" secondWord="Education" />
         <div className="posts">
-          {blogPosts.map((post, index) => (
-            <BlogPost
-              key={index}
-              title={post.title}
-              image={post.image}
-              read={post.link}
-              date={post.pubDate}
-            />
+          {educationPosts.map((post, index) => (
+            <EducationCard key={index} post={post} />
           ))}
         </div>
-        <a className="cyber-scourge" href="https://blog.randiltharusha.me">
-          View More Posts
-        </a>
       </section>
+
       <section id="contact">
         <Heading firstWord="Contact" secondWord="Me" />
         <ContactForm />

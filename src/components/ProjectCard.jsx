@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import { FaGithub } from "react-icons/fa";
-import { FaExternalLinkAlt } from "react-icons/fa";
 // import { motion } from "framer-motion";
 const ProjectCard = (props) => {
   // const containerVariants = {
@@ -24,9 +23,6 @@ const ProjectCard = (props) => {
             <a href={props.source} className="github">
               <FaGithub />
             </a>
-            <a href={props.preview}>
-              <FaExternalLinkAlt />
-            </a>
           </div>
         )}
       </div>
@@ -48,7 +44,6 @@ ProjectCard.propTypes = {
   tags: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
   source: PropTypes.string.isRequired,
-  preview: PropTypes.string.isRequired,
 };
 
 export default ProjectCard;

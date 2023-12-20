@@ -1,31 +1,28 @@
 //projects start
 const projects = [
   {
-    name: "Booking.com clone",
+    name: "House Rental Site",
     description:
-      "A clone of booking.com which is built using Nextjs 14 and Oxylabs webscraping API to scrape data from the official booking.com website and show as results of our queries",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/booking.com-clone-nextjs14",
-    img: "/bookingcom.jpg",
-    preview: "https://bookingcomnext14.netlify.app/",
+      "A web application where a user can look for a house on rent in their desired location. User can also post if they want to advertise about a house they want to give on rent.",
+    stack: ["HTML", "CSS", "Bootstrap", "Django"],
+    sourceCode: "https://github.com/Sadman25/BariVara--A-House-Rental-Site",
+    img: "/barivara_login.jpg",
   },
   {
-    name: "Cyberscourge Hub",
+    name: "Online Classroom",
     description:
-      "An open source ultra fast markdown blog app built using Hugo and deployed on Netlify. The theme of this app is 100% custom built by me. The theme is also open source and can be found on my github profile. And I regularly write articles on this blog.",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/cyberscourge-hub",
+      "A web application where students and faculties can join together for their academic classes.The system can also conduct exams, check scripts as well as appoint marks.",
+    stack: ["HTML", "CSS", "Bootstrap", "Django"],
+    sourceCode: "https://github.com/nayeemsweb/CSE499-Spring21-Project",
     img: "/cyberscourge.jpg",
-    preview: "https://rtharusha.tech",
   },
   {
-    name: "Jotion (Notion Clone)",
+    name: "Auction Site",
     description:
-      "A clone of the popular note taking app Notion. This app is built using Nextjs 13 and Tailwind CSS. It uses clerk for authentication and convex for its real time database. The project is not yet complete ",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/notion-clone",
-    img: "/jotion.jpg",
-    preview: "#",
+      "A web application where a user can put an item on auction as well as participate in other auctions as well.",
+    stack: ["HTML", "CSS", "Bootstrap", "Django"],
+    sourceCode: "https://github.com/Sadman25/Auction-Site",
+    img: "/auction_login.jpg",
   },
 ];
 

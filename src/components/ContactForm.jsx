@@ -10,7 +10,7 @@ const ContactForm = () => {
         <h1>Let&apos;s talk about everything!</h1>
         <p>
           Don&apos;t like forms? Send me an{" "}
-          <a href="mailto:randiltharusha72@gmail.com">email</a>. 👋
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shadman.saqif@gmail.com">email</a>. 👋
           <br />
           <br />
           <h3>Or find me on:</h3>
@@ -25,23 +25,23 @@ const ContactForm = () => {
         <div>
           <p className="contact-links">
             <MdEmail />
-            randiltharusha72@gmail.com
+            shadman.saqif@gmail.com
           </p>
           <br />
           <p className="contact-links">
             <FaPhoneAlt />
-            +94 78 134 7983
+            +88 01711-932340
           </p>
           <br />
           <p className="contact-links">
             <IoLocation />
-            Sri Lanka
+            Dhaka, Bangladesh
           </p>
           <br />
         </div>
       </div>
       <div className="contact-form">
-        <form name="contact" netlify>
+        <form action="https://formsubmit.co/shadman.saqif@gmail.com" method="POST"  name="contact" netlify>
           <input
             type="text"
             name="senderName"
@@ -55,6 +55,7 @@ const ContactForm = () => {
             name="message"
             required
           ></textarea>
+          <input type="hidden" name="_next" value="http://localhost:5173/"></input>
           <input type="submit" value="Send" />
         </form>
       </div>

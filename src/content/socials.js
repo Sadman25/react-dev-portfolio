@@ -1,19 +1,19 @@
 const socials = [
   {
     icon: "github.svg",
-    url: "https://github.com/randilt",
+    url: "https://github.com/Sadman25",
   },
   {
     icon: "linkedin.svg",
-    url: "https://www.linkedin.com/in/randiltharusha/",
+    url: "https://www.linkedin.com/in/shadman-saqif-5a38a5224/",
   },
   {
     icon: "instagram.svg",
-    url: "https://www.instagram.com/itz_toxic03/",
+    url: "https://www.instagram.com/sadman_saqif/",
   },
   {
     icon: "facebook.svg",
-    url: "https://facebook.com/profile.php?id=100089910035602",
+    url: "https://www.facebook.com/sadman.saqif.5",
   },
 ];
 
