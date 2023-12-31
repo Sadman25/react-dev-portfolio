@@ -55,7 +55,7 @@ const ContactForm = () => {
             name="message"
             required
           ></textarea>
-          <input type="hidden" name="_next" value="http://localhost:5173/"></input>
+          <input type="hidden" name="_next" value="https://shadmansaqif.netlify.app/"></input>
           <input type="submit" value="Send" />
         </form>
       </div>
